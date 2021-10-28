@@ -1,0 +1,43 @@
+.flex-container{
+  display: flex;
+  flex-direction: column;
+  height: 180px;
+  border: 1px solid black;
+}
+
+.elemento{
+  font-size: 24px;
+  height: 50%;
+  text-align: center;
+  min-width: 120px;
+  line-height: 50px;
+}
+
+.nowrap{
+  flex-wrap: nowrap;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
+
+
+.wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+.fogo{
+  background: linear-gradient(OrangeRed, Red);
+}
+.terra{
+  background: linear-gradient(brown, green)
+}
+.agua{
+  background-color: lightskyblue;
+}
+.ar{
+  background: linear-gradient(yellow, #fff);
+}
+
+
+
+
